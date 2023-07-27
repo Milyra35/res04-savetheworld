@@ -1,0 +1,29 @@
+$green : #008080;
+$beige : #fffebd;
+$font-family : "Open Sans", sans-serif;
+$font-size-h1 : 2.2em;
+$font-size-h2 : 2em;
+$font-size-h3 : 1.8em;
+$font-size-h4 : 1.7em;
+$font-size-default : 1.6em;
+
+html {
+    font-size:62.5%;
+
+    body {
+        font-size : $font-size-default;
+        font-family : $font-family;
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+
+        header {
+            max-width:80%;
+            background-color:$green;
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(2,1fr);
+        }
+    }
+}
+

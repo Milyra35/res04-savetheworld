@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.6em;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body header {
+  max-width: 80%;
+  background-color: #008080;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}/*# sourceMappingURL=style.css.map */
