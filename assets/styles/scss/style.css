@@ -280,4 +280,82 @@ html body main .other-part .other-news article h4 a:hover {
 html body footer {
   background-color: #2B0C54;
   color: #cbffc3;
+}
+html body footer > article:first-of-type {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+html body footer > article:first-of-type > section h1 {
+  font-size: 2.8em;
+  text-transform: uppercase;
+  color: #DD6820;
+}
+html body footer > article:first-of-type > section h1 svg {
+  color: #DD6820;
+}
+html body footer > article:first-of-type > section h2 {
+  font-size: 1.2em;
+  padding: 0 0.5em;
+  text-transform: uppercase;
+}
+html body footer > article:first-of-type form {
+  display: flex;
+  align-items: center;
+}
+html body footer > article:first-of-type form label {
+  margin-right: 1em;
+}
+html body footer > article:first-of-type form input:first-of-type {
+  height: 2.5em;
+  width: 16em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+html body footer > article:first-of-type form input::-moz-placeholder {
+  color: #2B0C54;
+}
+html body footer > article:first-of-type form input::placeholder {
+  color: #2B0C54;
+}
+html body footer > article:first-of-type form input:nth-of-type(2) {
+  height: 2.6em;
+  background-color: #DD6820;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+html body footer .socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body footer .socials h3 {
+  color: #DD6820;
+  font-size: 1.8em;
+}
+html body footer .socials a {
+  text-decoration: none;
+  color: #cbffc3;
+}
+html body footer .socials a svg {
+  padding: 1em 1.2em;
+}
+html body footer nav {
+  padding: 1em 0;
+}
+html body footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+html body footer nav ul li a {
+  padding: 0 1em;
+  text-decoration: none;
+  color: #cbffc3;
+  font-size: 1em;
 }/*# sourceMappingURL=style.css.map */

@@ -363,6 +363,100 @@ html {
         footer {
             background-color:$purple;
             color:$green;
+
+            >article:first-of-type {
+                max-width:80vw;
+                margin:0 auto;
+                display:flex;
+                justify-content:space-between;
+                padding:1em 0;
+
+                >section {
+                    
+                    h1 {
+                        font-size:$font-size-h1;
+                        text-transform:uppercase;
+                        color:$orange;
+    
+                        svg {
+                           color:$orange;
+                        }
+                    }
+    
+                    h2 {
+                        font-size:1.2em;
+                        padding:0 0.5em;
+                        text-transform: uppercase;
+                    }
+                }
+
+                form {
+                    display:flex;
+                    align-items:center;
+
+                    label {
+                        margin-right:1em;
+                    }
+                    input:first-of-type {
+                        height:2.5em;
+                        width:16em;
+                        background-color:rgba(255,255,255,.5);
+                        border:none;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+                    input::placeholder {
+                        color:$purple;
+                    }
+                    input:nth-of-type(2) {
+                        height:2.6em;
+                        background-color:$orange;
+                        border:none;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        font-family:$font-family;
+                    }
+                    
+                }
+            }
+
+            .socials {
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+
+                h3 {
+                    color:$orange;
+                    font-size:$font-size-h4;
+                }
+                a {
+                    text-decoration:none;
+                    color:$green;
+
+                    svg {
+                        padding:1em 1.2em;
+                    }
+                }
+            }
+
+            nav {
+                padding:1em 0;
+
+                ul {
+                    display:flex;
+                    justify-content: center;
+
+                    li {
+
+                        a {
+                            padding:0 1em;
+                            text-decoration:none;
+                            color:$green;
+                            font-size:1em;
+                        }
+                    }
+                }
+            }
         }
     }
 }
