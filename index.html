@@ -10,6 +10,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
+        <section class="menu">
+            <a href="#principal-news">Principal news</a>
+            <a href="#trending">Trending news</a>
+            <a href="#other-news">Other news</a>
+            <a href="#footer">Footer</a>
+        </section>
         <header>
             <section>
                 <section>
@@ -59,11 +65,6 @@
             </section>
         </header>
         <main id="content">
-            <section class="menu">
-                <a href="#principal-news">Principal news</a>
-                <a href="#section2">Section 2</a>
-                <a href="#section3">Section 3</a>
-            </section>
 
             <section class="widgets">
                 <article>
@@ -77,110 +78,103 @@
             </section>
             
             <article id="principal-news" class="slider">
-                <section class="principal-news slider">
+                <section class="principal-news">
                     <h3 class="hidden">Principal news</h3>
-                    <button class="previous">
+                    <!-- <button class="previous">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
                         </svg>
-                    </button>
+                    </button> -->
                     <article>
                         <img src="assets/images/landscape-1.jpg" alt="beautiful landscape of cherry blossoms"></img>
-                        <p>Jane Doe <span>2h</span></p>
+                        <p class="author">Jane Doe</p>
                         <h3><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, tempora pariatur cumque possimus amet fugiat?</p>
                     </article>
                     <article>
                         <img src="assets/images/landscape-2.jpg" alt="beautiful landscape of a lake within the mountains"></img>
-                        <p>Jane Doe <span>2h</span></p>
+                        <p class="author">Jane Doe</p>
                         <h3><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, tempora pariatur cumque possimus amet fugiat?</p>
                     </article>
                     <article>
                         <img src="assets/images/landscape-3.jpg" alt="beautiful landscape of mountains"></img>
-                        <p>Jane Doe <span>2h</span></p>
+                        <p class="author">Jane Doe</p>
                         <h3><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, tempora pariatur cumque possimus amet fugiat?</p>
                     </article>
-                    <button class="next">
+                    <!-- <button class="next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                         </svg>
-                    </button>
+                    </button> -->
                 </section>
             </article>
             
-            <aside class="trending">
-                <h3>Trending</h3>
-                <article>
-                    <p>Jane Doe <span>2h</span></p>
-                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
-                </article>
-                <article>
-                    <p>Jane Doe <span>2h</span></p>
-                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
-                </article>
-                <article>
-                    <p>Jane Doe <span>2h</span></p>
-                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
-                </article>
-                <article>
-                    <p>Jane Doe <span>2h</span></p>
-                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
-                </article>
-            </aside>
+            <section class="other-part">
+                <aside id="trending" class="trending">
+                    <h3>Trending</h3>
+                    <article>
+                        <p class="author">Jane Doe</p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                    </article>
+                    <article>
+                        <p class="author">Jane Doe</p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                    </article>
+                    <article>
+                        <p class="author">Jane Doe</p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                    </article>
+                </aside>
 
-            <section class="other-news">
-                <h3>Other news</h3>
-                <article>
-                    <img src="assets\images\landscape-4.jpg" alt="Wonderful landscape of mountains">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
+                <section id="other-news" class="other-news">
+                    <h3>Other news</h3>
+                    <article>
+                        <img src="assets\images\landscape-4.jpg" alt="Wonderful landscape of mountains">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
 
-                <article>
-                    <img src="assets\images\landscape-5.jpg" alt="Landscape by night of the sea with the moon">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
+                    <article>
+                        <img src="assets\images\landscape-5.jpg" alt="Landscape by night of the sea with the moon">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
 
-                <article>
-                    <img src="assets\images\landscape-6.jpg" alt="Landscape of a sunset behind mountains and clouds">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
+                    <article>
+                        <img src="assets\images\landscape-6.jpg" alt="Landscape of a sunset behind mountains and clouds">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
 
-                <article>
-                    <img src="assets\images\landscape-4.jpg" alt="Wonderful landscape of mountains">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
+                    <article>
+                        <img src="assets\images\landscape-4.jpg" alt="Wonderful landscape of mountains">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
 
-                <article>
-                    <img src="assets\images\landscape-5.jpg" alt="Landscape by night of the sea with the moon">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
+                    <article>
+                        <img src="assets\images\landscape-5.jpg" alt="Landscape by night of the sea with the moon">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
 
-                <article>
-                    <img src="assets\images\landscape-6.jpg" alt="Landscape of a sunset behind mountains and clouds">
-                    <p>Jane Doe<span> 2h</span></p>
-                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
-                </article>
-            </section>
-
-            <section class="videos">
-                <h3>Videos</h3>
-                
+                    <article>
+                        <img src="assets\images\landscape-6.jpg" alt="Landscape of a sunset behind mountains and clouds">
+                        <p class="author">Jane Doe<span> 2h</span></p>
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, exercitationem.</p>
+                    </article>
+                </section>
             </section>
         </main>
-        <footer>
+        <footer id="footer">
             <article>
                 <section>
                     <h1>
